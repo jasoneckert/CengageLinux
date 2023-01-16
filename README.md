@@ -9,7 +9,5 @@ This book was written using the latest distribution available at the time of wri
 - Fedora Workstation 36, and
 - Ubuntu Server 22.04
 
-The following sections detail any changes for subsequent Linux distribution versions:
-
-## Fedora Workstation 37 (x86_64 or aarch64)
+## Changes for Fedora Workstation 37 (x86_64 or aarch64)
 
