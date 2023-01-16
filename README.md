@@ -10,4 +10,4 @@ This book was written using the latest distribution available at the time of wri
 - Ubuntu Server 22.04
 
 ## Changes for Fedora Workstation 37 (x86_64 or aarch64)
-- ***Project 2-6 Step 2 (pg 70)*** - Before running this step, execute the `dnf -y install cron` command to install the cron daemon. Starting with Fedora 37, this daemon is not installed by default.
+- ***Project 2-6 Step 2 (pg 70)*** - Before running this step, execute the `dnf -y install cron` command to install the cron daemon. Starting with Fedora 37, this daemon is not installed by default. THIS IS NOT AN ACTUAL ERROR BUT A TEMPLATE LINE ONLY!
