@@ -25,4 +25,4 @@ New versions of each Linux distribution are released frequently. While nearly al
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
 
 ## Miscellaneous Changes 
-- ***Discovery Exercise 12-4 (pg 528)*** - On Windows 10 and later, a default distribution is no longer chosen by the `wsl` command. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu. 
+- ***Discovery Exercise 12-4 (pg 528)*** - On Windows, `wsl` no longer assumes a default distribution of Ubuntu. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu WSL. 
