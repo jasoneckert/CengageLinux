@@ -19,6 +19,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 11-8 Step 2 (pg 481)*** - This step is no longer necessary as flathub is now added and enabled by default in Fedora. 
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
 - ***Project 12-4 Step 4 (pg 523)*** - When you run the `telnet` command, you will first be prompted to press `y` to install the telnet utility, as it is no longer installed by default. 
-- ***Discovery Exercise 12-4 (pg 528)*** - On Windows 11, a default distribution is no longer chosen by the `wsl` command. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu. 
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
+
+## Miscellaneous Changes 
+- ***Discovery Exercise 12-4 (pg 528)*** - On Windows 11, a default distribution is no longer chosen by the `wsl` command. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu. 
