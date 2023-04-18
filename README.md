@@ -10,11 +10,11 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run the `info` command, you will first be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
-- ***Project 5-4 Step 4 (pg 209)*** - When running `mkpart`, you will first be prompted to supply a partition name (press Enter to choose a blank name).
+- ***Project 5-4 Step 4 (pg 209)*** - After running `mkpart`, you are first prompted to supply a partition name. Press Enter to choose a blank name.
 - ***Project 6-6 Step 3 (pg 255)*** - Click *Not Now* to continue to use the live Fedora system.
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Fedora no longer ships with any UNIX SysV daemons, such as livesys. Consequently, the `chkconfig` command is no longer installed to manage them. 
-- ***Project 8-2 Step 20 (pg 357)*** - Since UNIX SysV daemons such as livesys are no longer available, run `service crond restart` instead and note that the legacy `service` functionality is now handled by Systemd. 
+- ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service crond restart` and note that legacy `service` command functionality is now handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`. 
-- ***Project 9-5 Steps 8 and 9 (pg 388)*** - Note that the `crontab` command now opens the `nano` editor instead of the `vi` editor by default. 
+- ***Project 9-5 Steps 8 and 9 (pg 388)*** - The `crontab` command now opens the `nano` editor instead of `vi` by default. 
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
