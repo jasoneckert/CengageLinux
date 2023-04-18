@@ -20,7 +20,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
 - ***Project 12-4 Step 4 (pg 523)*** - When you run the `telnet` command, you will first be prompted to press `y` (twice) to install the telnet utility, as it is no longer installed by default. 
 - ***Project 13-4 Step 2 (pg 570)*** - This step is no longer necessary as httpd is now installed by default. 
-- ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run the `dnf install sshfs` command. 
+- ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
 
