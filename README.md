@@ -15,5 +15,6 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Fedora no longer ships with any UNIX SysV daemons, such as livesys. Consequently, the `chkconfig` command is no longer installed to manage them. 
 - ***Project 8-2 Step 20 (pg 357)*** - Since UNIX SysV daemons such as livesys are no longer available, run `service crond restart` instead and note that the legacy `service` functionality is now handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`. 
+- ***Project 9-5 Steps 8 and 9 (pg 388)*** - Note that the `crontab` command now opens the `nano` editor instead of the `vi` editor by default. 
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
