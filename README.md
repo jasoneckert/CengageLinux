@@ -12,5 +12,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
 - ***Project 5-4 Step 4 (pg 209)*** - When running `mkpart`, you will first be prompted to supply a partition name (press Enter to choose a blank name).
 - ***Project 6-6 Step 3 (pg 255)*** - Click *Not Now* to continue to use the live Fedora system.
+- ***Project 8-2 Steps 6-8 (pg 357)*** - Fedora no longer ships with any UNIX SysV daemons, such as livesys. Consequently, the `chkconfig` command is no longer installed to manage them. 
+- ***Project 8-2 Step 20 (pg 357)*** - Since UNIX SysV daemons such as livesys are no longer available, run `service crond restart` instead and note that the legacy `service` functionality is now handled by Systemd. 
+- ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`. 
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
