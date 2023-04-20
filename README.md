@@ -22,7 +22,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 13-4 Step 2 (pg 570)*** - This step is no longer necessary as httpd is now installed by default. 
 - ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
-## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) - COMING APRIL 20, 2023
+## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) 
+- ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default. 
 
 ## Miscellaneous Changes 
 - ***Discovery Exercise 12-4 (pg 528)*** - On Windows, `wsl` no longer assumes a default distribution of Ubuntu. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu WSL. 
