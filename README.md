@@ -25,6 +25,12 @@ New versions of each Linux distribution are released frequently. While nearly al
 
 ## Changes for Ubuntu Server 23.04 (x86_64 or aarch64) 
 - ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default. 
+- ***NetPlan .yaml syntax (pg 494)*** - While the syntax of the sample 00-installer-config.yaml file will work fine, the `gateway4: 3.0.0.1` line now uses a deprecated syntax. The preferred syntax for setting this default gateway is now:
+  ```
+  routes:
+    - to: default
+      via: 3.0.0.1
+  ``` 
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
 
 ## Miscellaneous Changes 
