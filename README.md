@@ -14,6 +14,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
 - ***Project 5-4 Step 4 (pg 209)*** - `mkpart` first prompts you to supply a partition name. Press Enter to choose a blank name.
 - ***Project 5-4 Step 11 (pg 210)*** - The first command run in this step should be `vgcreate vg00 device`, where *device* is the device file for the 1GB partition created in Step 4.
+- ***Project 5-6 Step 9 (pg 212)*** - If you are prompted to run the `systemctl daemon-reload` command after executing the `mount` command in this step, please do so before continuing to the next step.
 - ***Project 6-6 Step 3 (pg 255)*** - Click *Not Now* to continue to use the live Fedora system.
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Fedora no longer ships with any UNIX SysV daemons, such as livesys. Consequently, `chkconfig` is no longer installed to manage them. 
 - ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service crond restart` and note that legacy `service` command functionality is now handled by Systemd. 
