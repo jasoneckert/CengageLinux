@@ -5,7 +5,7 @@ In this book, you install virtual machines of the latest Fedora Workstation and 
 
 New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository. You will also find any miscellaneous changes that related to new versions of Windows or macOS.
 
-## Changes for Fedora Workstation 38 (x86_64 or aarch64) 
+## Changes for Fedora Workstation 39 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4 (pg 66)*** - Click *Install Fedora* to start the Fedora installation.
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
