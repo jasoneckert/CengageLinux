@@ -18,6 +18,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 5-4 Step 11 (pg 210)*** - The first command run in this step should be `vgcreate vg00 device`, where *device* is the device file for the 1GB partition created in Step 4.
 - ***Project 5-6 Step 9 (pg 212)*** - Fedora now converts entries in /etc/fstab to Systemd mount units (discussed later in Chapter 8), but this conversion is performed only during system startup. After executing the `mount` command in this step run the `systemctl daemon-reload` command to complete this conversion. 
 - ***Project 6-6 Step 3 (pg 255)*** - Click *Not Now* to continue to use the live Fedora system.
+- ***Project 7-5 Step 12 (pg 316)*** - The commands  which generate the FILE and DATE variables need to be encompassed with a dollar sign and parentheses (e.g. FILE=$(echo $ANS | sed s#/#-#g) )
 - ***Project 8-1 Step 5 (pg 356)*** - Also ensure that you edit the `GRUB_DISABLE_SUBMENU=true` line to read `GRUB_DISABLE_SUBMENU=false` before saving your changes to /etc/default/grub. 
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Note that Fedora no longer ships with any UNIX SysV daemons, such as livesys. 
 - ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service crond restart` and note that legacy `service` command functionality is now handled by Systemd. 
