@@ -23,6 +23,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Note that Fedora no longer ships with any UNIX SysV daemons, such as livesys. 
 - ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service crond restart` and note that legacy `service` command functionality is now handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`. 
+- ***Project 9-4 Step 4 (pg 388)*** - To exit the help page in the `top` command, you must now press either `q` or `Esc` (as indicated on the screen). 
 - ***Project 9-5 Steps 8 and 9 (pg 388)*** - The `crontab` command now opens `nano` instead of `vi` by default. 
 - ***Project 11-8 Step 2 (pg 481)*** - This step is no longer necessary as flathub is now added and enabled by default. 
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
