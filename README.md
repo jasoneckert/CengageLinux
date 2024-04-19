@@ -19,6 +19,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 6-6 Step 3 (pg 255)*** - Click *Not Now* to continue to use the live Fedora system.
 - ***Project 7-5 Step 12 (pg 316)*** - Ensure that you use backquotes (\`) instead of single quotes (\') around the values of the `FILE` and `DATE` variables (the compositor changed them before print).
 - ***Project 8-1 Step 5 (pg 356)*** - Also ensure that you edit the `GRUB_DISABLE_SUBMENU=true` line to read `GRUB_DISABLE_SUBMENU=false` before saving your changes to /etc/default/grub. 
+- ***Project 8-1 Step 6 (pg 356)*** - If you do not see the GRUB2 boot screen in the following step (Step 7) and your virtual machine emulates a UEFI BIOS, return to this step and run the `grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg` command (this will always work with a UEFI BIOS). 
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Note that Fedora no longer ships with any UNIX SysV daemons, such as livesys. 
 - ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service crond restart` and note that legacy `service` command functionality is now handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`.
