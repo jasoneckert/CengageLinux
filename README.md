@@ -10,7 +10,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 2-1 Step 11 (pg 66)*** - Note that the *Power Off/Log Out* drop-down menu has been replaced with a graphical power icon.
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
-- ***Project 2-3 Step 6 (pg 68)*** - If you receive errors installing KDE Plasma Workspaces, first perform a `dnf update` command to update your repository information.
+- ***Project 2-3 Step 6 (pg 68)*** - If you receive errors installing KDE Plasma Workspaces, first perform a `dnf update` command to update your repository information and packages.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
 - ***Project 5-4 Step 4 (pg 209)*** - `mkpart` first prompts you to supply a partition name. Press Enter to choose a blank name.
