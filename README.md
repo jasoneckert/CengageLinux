@@ -44,6 +44,7 @@ New versions of each Linux distribution are released frequently. While nearly al
   ``` 
 - ***Project 12-1 Step 20 (pg 522)*** - Ubuntu now stores network configuration in /etc/netplan/50-cloud-init.yaml. Consequently, you must run the `cat /etc/netplan/50-cloud-init.yaml` command in this step. 
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
+- ***Discovery Exercise 14-10 (pg 638)*** - Replace `sssdad` in the `apt install` command with `sssd-ad`. 
 
 ## Miscellaneous Changes 
 - ***Discovery Exercise 12-4 (pg 528)*** - On Windows, `wsl` no longer assumes a default distribution of Ubuntu. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu WSL. 
