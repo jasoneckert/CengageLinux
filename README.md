@@ -42,6 +42,7 @@ New versions of each Linux distribution are released frequently. While nearly al
     - to: default
       via: 3.0.0.1
   ``` 
+- ***Project 12-1 Step 20 (pg 522)*** - Ubuntu now stores network configuration in /etc/netplan/50-cloud-init.yaml. Consequently, you must run the `cat /etc/netplan/50-cloud-init.yaml` command in this step. 
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
 
 ## Miscellaneous Changes 
