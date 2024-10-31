@@ -12,6 +12,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
 - ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (dnf5) no longer uses the `groupinstall` argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
 - ***Project 2-3 Step 7 (pg 68)*** - KDE Plasma Workspaces no longer supports X.org (X11) on Fedora. When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
+- ***Project 2-3 Step 10 (pg 68)*** - To open a new tab, you now click the New Terminal icon in the upper left corner of the app.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
 - ***Project 5-4 Step 4 (pg 209)*** - `mkpart` first prompts you to supply a partition name. Press Enter to choose a blank name.
