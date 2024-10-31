@@ -5,7 +5,7 @@ In this book, you install virtual machines of the latest Fedora Workstation and 
 
 New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository. You will also find any miscellaneous changes that related to new versions of Windows or macOS, as well as any typos noticed following publication.
 
-## Changes for Fedora Workstation 40 (x86_64 or aarch64) 
+## Changes for Fedora Workstation 41 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4 (pg 66)*** - Click *Install Fedora* to start the Fedora installation.
 - ***Project 2-1 Step 11 (pg 66)*** - Note that the *Power Off/Log Out* drop-down menu has been replaced with a graphical power icon.
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
