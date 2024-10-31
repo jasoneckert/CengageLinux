@@ -10,7 +10,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 2-1 Step 11 (pg 66)*** - Note that the *Power Off/Log Out* drop-down menu has been replaced with a graphical power icon.
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
-- ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (`dnf5`) no longer uses the groupinstall argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
+- ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (`dnf5`) no longer uses the `groupinstall` argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
 - ***Project 2-3 Step 7 (pg 68)*** - KDE Plasma Workspaces no longer supports X.org (X11) on Fedora. When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland. Because of this, the output of `who` in Step 9 will indicate tty2 instead of :0.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
