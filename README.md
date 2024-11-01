@@ -37,6 +37,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 11-8 Step 2 (pg 481)*** - This step is no longer necessary as flathub is now added and enabled by default. 
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
 - ***Project 12-4 Step 4 (pg 523)*** - When you run `telnet`, you will be prompted to press `y` (twice) to install the telnet client utility, as it is no longer installed by default. 
+- ***Project 12-6 (pg 526)*** - TigerVNC runs on Wayland exclusively as a Systemd unit. After installing it in Step 2, log into a desktop environment as user1, run `vncserver`, specify your remote connection password (no view-only password) and note the first display number provided. You can then proceed to Step 6. In Step 8, you will supply `IP:5901` within the VNC Server dialog box to connect to the VNC server. Step 10 is unnecessary. 
 - ***Project 13-4 Step 2 (pg 570)*** - This step is no longer necessary as httpd is now installed by default. 
 - ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
