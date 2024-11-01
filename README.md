@@ -38,7 +38,6 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
 - ***Project 12-4 Step 4 (pg 523)*** - When you run `telnet`, you will be prompted to press `y` (twice) to install the telnet client utility, as it is no longer installed by default. 
 - ***Project 12-6 (pg 526)*** - TigerVNC runs on Wayland exclusively as a Systemd unit. After installing it in Step 2, log into a desktop environment as user1, run `vncserver`, specify your remote connection password (no view-only password) and note the first display number provided. You can then proceed to Step 6. In Step 8, you will supply `IP:5901` within the VNC Server dialog box to connect to the VNC server. Step 10 is unnecessary. 
-- ***Discovery Exercise 12-4 (pg 528)*** - On Windows, `wsl` no longer assumes a default distribution of Ubuntu. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu WSL. 
 - ***Project 13-4 Step 2 (pg 570)*** - This step is no longer necessary as httpd is now installed by default. 
 - ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
@@ -53,3 +52,6 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 12-1 Step 20 (pg 522)*** - Ubuntu now stores network configuration in /etc/netplan/50-cloud-init.yaml. Consequently, you must run the `cat /etc/netplan/50-cloud-init.yaml` command in this step. 
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
 - ***Discovery Exercise 14-10 (pg 638)*** - In the `apt install` command, replace `sssdad` with `sssd-ad`. 
+
+## Miscellaneous Changes 
+- ***Discovery Exercise 12-4 (pg 528)*** - On Windows, `wsl` no longer assumes a default distribution of Ubuntu. As a result, you must run the `wsl --install --distribution ubuntu` command to install Ubuntu WSL. 
