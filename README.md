@@ -33,6 +33,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 9-5 Steps 8 and 9 (pg 388)*** - The `crontab` command now opens `nano` instead of `vi` by default. 
 - ***Project 10-4 Step 3 (pg 425)*** - The journald configuration file is now in a different location. Run `cat /usr/lib/systemd/journald.conf` in this step. 
 - ***Project 11-4 Step 2 (pg 478)*** - The latest version of `dnf` (dnf5) no longer uses the `groupinstall` argument. You must instead run the `dnf install @development-tools` command to install the Development Tools group.
+- ***Project 11-5 Step 10 (pg 479)*** - The latest version of `dnf` (dnf5) no longer requires the `available` argument. You must instead run the `dnf list | grep ncompress` command to view the available ncompress package.
 - ***Project 11-8 Step 2 (pg 481)*** - This step is no longer necessary as flathub is now added and enabled by default. 
 - ***Project 11-8 Steps 3-7 (pg 481)*** - Replace *Teams* with *Edge* to install, view, and run Microsoft Edge. 
 - ***Project 12-4 Step 4 (pg 523)*** - When you run `telnet`, you will be prompted to press `y` (twice) to install the telnet client utility, as it is no longer installed by default. 
