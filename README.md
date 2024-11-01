@@ -23,7 +23,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 8-1 Step 5 (pg 356)*** - Also ensure that you edit the `GRUB_DISABLE_SUBMENU=true` line to read `GRUB_DISABLE_SUBMENU=false` before saving your changes to /etc/default/grub. 
 - ***Project 8-1 Step 6 (pg 356)*** - If you do not see the GRUB2 boot screen in the following step (Step 7) and your virtual machine emulates a UEFI BIOS, return to this step and run the `grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg` command (this will also update the target /boot/grub2/grub.cfg). 
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Note that Fedora no longer ships with any UNIX SysV daemons, such as livesys. 
-- ***Project 8-2 Step 20 (pg 357)*** - Since livesys is no longer available, instead run `service cups restart` and note that legacy `service` command functionality is now handled by Systemd. 
+- ***Project 8-2 Step 20 (pg 357)*** - Note that while the livesys daemon is now Systemd-compatible, the `service` command functionality is still handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`.
 - ***Project 8-4 Step 3 (pg 358)*** - The disk UUID is now the 4th column in the output of `lsblk --fs`, thus the proper command in this step is `:r !lsblk --fs |grep newmount|awk '{print $4}'`.
 - ***Project 9-4 Step 4 (pg 388)*** - To exit the help page in the `top` command, you must now press either `q` or `Esc` (as indicated on the screen). 
