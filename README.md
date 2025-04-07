@@ -7,40 +7,40 @@ New versions of each Linux distribution are released frequently. While nearly al
 
 ## Changes for Fedora Workstation 41 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards with the following:
-  - After the graphical desktop and Welcome to Fedora screen have loaded, select Install Fedora to start the Fedora installation program.
-  - At the Welcome screen, select English (United States) and click Next.
-  - On the Installation method screen, note that your 50 GB virtual disk is called sda and that the entire disk will be used to install Fedora. Select Launch storage editor from the ellipsis (three-dot) menu in the upper-right section of the window and click Launch storage editor to edit the storage configuration manually.
-    - Select Create partition table from the ellipsis menu next to sda. Note that GPT is selected by default and click Initialize. After the GPT has been created, Free space will be listed under sda and be available for creating partitions.
-    -	Select Create partition from the ellipsis menu next to Free space. If your hypervisor provides a UEFI BIOS, supply the following information and click Create. Otherwise, skip this step.
+  - After the graphical desktop and Welcome to Fedora screen have loaded, select ***Install Fedora*** to start the Fedora installation program.
+  - At the Welcome screen, select ***English (United States)*** and click ***Next***.
+  - On the Installation method screen, note that your 50 GB virtual disk is called sda and that the entire disk will be used to install Fedora. Select ***Launch storage editor*** from the ellipsis (three-dot) menu in the upper-right section of the window and click ***Launch storage editor*** to edit the storage configuration manually.
+    - Select ***Create partition table*** from the ellipsis menu next to sda. Note that GPT is selected by default and click ***Initialize***. After the GPT has been created, Free space will be listed under sda and be available for creating partitions.
+    -	Select ***Create partition*** from the ellipsis menu next to Free space. If your hypervisor provides a UEFI BIOS, supply the following information and click ***Create***. Otherwise, skip this step.
       - Name = UEFI
       - Mount point = /boot/efi
       - Type = EFI System partition
       - Size = 1 GB
-    - Select Create partition from the ellipsis menu next to Free space. Supply the following information and click Create.
+    - Select ***Create partition*** from the ellipsis menu next to Free space. Supply the following information and click ***Create***.
       - Name = Boot Partition
       - Mount point = /boot
       - Type = EXT4
       - Size = 1 GB
-    - Select Create partition from the ellipsis menu next to Free space. Supply the following information and click Create.
+    - Select ***Create partition*** from the ellipsis menu next to Free space. Supply the following information and click ***Create***.
       - Name = Root Partition
       - Mount point = /
       - Type = EXT4
       - Size = 35 GB
-    - Note the additional unpartitioned Free space on your first disk for a later exercise and click Return to installation. 
-    -	Click Continue to return to the Installation method screen. Note that your storage configuration is selected and click Next.
-  - On the Review and install screen, click Install.
-  - When the installation has finished, click Exit to live desktop to return to your Fedora live desktop.
-  - Click the icon area in the upper-right corner of the Fedora live desktop, click the power symbol icon on the far-right side, and select Power Off. Click Power Off to shut down your Fedora Live installation image.
+    - Note the additional unpartitioned Free space on your first disk for a later exercise and click ***Return to installation***. 
+    -	Click ***Continue*** to return to the Installation method screen. Note that your storage configuration is selected and click ***Next***.
+  - On the Review and install screen, click ***Install***.
+  - When the installation has finished, click ***Exit*** to live desktop to return to your Fedora live desktop.
+  - Click the icon area in the upper-right corner of the Fedora live desktop, click the power symbol icon on the far-right side, and select ***Power Off***. Click ***Power Off*** to shut down your Fedora Live installation image.
   - In the Settings for the virtual machine in your virtualization software, ensure that the virtual DVD drive is no longer attached to the live media ISO image of Fedora Workstation Linux.
   - Start your Fedora Linux virtual machine using the virtualization software to boot into your new operating system.
-  - At the Welcome screen of the Setup wizard, ensure that English is selected and click Next. 
-    - At the Typing page, ensure that an English (US) keyboard is selected and click Next.
-    - At the Privacy page, disable Location Services and Automatic Problem Reporting using the sliders and click Next. 
-    - At the Time Zone page, select your nearest city by locating it on the map or entering its name into the search box. Verify that the correct time zone and time are listed and click Next.
-    - At the Third-Party Repositories page, click Enable Third-Party Repositories and click Next.
-    - On the About You page, supply your full name in the Full Name text box, enter user1 in the Username text box, and then click Next. 
-    - At the Password page, supply a password of LINUXrocks! in both text boxes. Click Next and then click Start Using Fedora Linux.</ACTNLLL>
-  - At the Welcome to Fedora Linux Wizard, click Take Tour. Navigate through the wizard using the arrow icons and close the window when finished.
+  - At the Welcome screen of the Setup wizard, ensure that English is selected and click ***Next***. 
+    - At the Typing page, ensure that an English (US) keyboard is selected and click ***Next***.
+    - At the Privacy page, disable Location Services and Automatic Problem Reporting using the sliders and click ***Next***. 
+    - At the Time Zone page, select your nearest city by locating it on the map or entering its name into the search box. Verify that the correct time zone and time are listed and click ***Next***.
+    - At the Third-Party Repositories page, click ***Enable Third-Party Repositories*** and click ***Next***.
+    - On the About You page, supply your full name in the Full Name text box, enter `user1` in the Username text box, and then click ***Next***. 
+    - At the Password page, supply a password of `LINUXrocks!` in both text boxes. Click ***Next*** and then click ***Start Using Fedora Linux***.
+  - At the Welcome to Fedora Linux Wizard, click ***Take Tour***. Navigate through the wizard using the arrow icons and close the window when finished.
 
 - ***Project 2-1 Step 11 (pg 66)*** - Note that the *Power Off/Log Out* drop-down menu has been replaced with a graphical power icon.
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
