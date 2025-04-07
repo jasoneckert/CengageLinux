@@ -6,7 +6,7 @@ In this book, you install virtual machines of the latest Fedora Workstation and 
 New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository. You will also find any miscellaneous changes that related to new versions of Windows or macOS, as well as any typos noticed following publication.
 
 ## Changes for Fedora Workstation 41 (x86_64 or aarch64) 
-- ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards in this Project with the following:
+- ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards with the following:
   - After the graphical desktop and Welcome to Fedora screen have loaded, select Install Fedora to start the Fedora installation program.
   - At the Welcome screen, select English (United States) and click Next.
   - On the Installation method screen, note that your 50 GB virtual disk is called sda and that the entire disk will be used to install Fedora. Select Launch storage editor from the ellipsis (three-dot) menu in the upper-right section of the window and click Launch storage editor to edit the storage configuration manually.
