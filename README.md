@@ -16,7 +16,7 @@ New versions of each Linux distribution are released frequently. While nearly al
       - Mount point = /boot/efi
       - Type = EFI System partition
       - Size = 1 GB
-    - Select ***Create partition*** from the ellipsis menu next to Free space. Supply the following information and click ***Create***.
+    - Select ***Create partition*** from the ellipsis menu next to Free space. Supply the following information and click ***Create***. If your hypervisor provides a UEFI BIOS, supply the following information and click ***Create***. Otherwise, skip this step.
       - Name = Boot Partition
       - Mount point = /boot
       - Type = EXT4
