@@ -12,10 +12,10 @@ New versions of each Linux distribution are released frequently. While nearly al
   - On the Installation method screen, note that your 50 GB virtual disk is called sda and that the entire disk will be used to install Fedora. Select ***Launch storage editor*** from the ellipsis (three-dot) menu in the upper-right section of the window and click ***Launch storage editor*** to edit the storage configuration manually.
     - Select ***Create partition table*** from the ellipsis menu next to sda. Note that GPT is selected by default and click ***Initialize***. After the GPT has been created, Free space will be listed under sda and be available for creating partitions.
     -	Select ***Create partition*** from the ellipsis menu next to Free space. If your hypervisor provides a UEFI BIOS, supply the following information and click ***Create***. Otherwise, skip this step.
-      - Name = UEFI
-      - Mount point = /boot/efi
-      - Type = EFI System partition
-      - Size = 1 GB
+       - Name = UEFI
+       - Mount point = /boot/efi
+       - Type = EFI System partition
+       - Size = 1 GB
     - Select ***Create partition*** from the ellipsis menu next to Free space. Supply the following information and click ***Create***.
       - Name = Boot Partition
       - Mount point = /boot
