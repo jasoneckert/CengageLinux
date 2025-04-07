@@ -75,7 +75,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
 ## Changes for Ubuntu Server 24.04 (x86_64 or aarch64) 
-- ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default. 
+- ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default.
+  
 - ***NetPlan .yaml syntax (pg 494)*** - While the syntax displayed in the sample `00-installer-config.yaml` file will work fine, the `gateway4: 3.0.0.1` line now uses a deprecated syntax. The preferred syntax for setting this default gateway is now:
   ```
   routes:
@@ -83,7 +84,9 @@ New versions of each Linux distribution are released frequently. While nearly al
       via: 3.0.0.1
   ``` 
 - ***Project 12-1 Step 20 (pg 522)*** - Ubuntu now stores network configuration in /etc/netplan/50-cloud-init.yaml. Consequently, you must run the `cat /etc/netplan/50-cloud-init.yaml` command in this step. 
+
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
+
 - ***Discovery Exercise 14-10 (pg 638)*** - In the `apt install` command, replace `sssdad` with `sssd-ad`. 
 
 ## Miscellaneous Changes 
