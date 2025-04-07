@@ -42,11 +42,10 @@ New versions of each Linux distribution are released frequently. While nearly al
     - At the Password page, supply a password of `LINUXrocks!` in both text boxes. Click ***Next*** and then click ***Start Using Fedora Linux***.
   - At the Welcome to Fedora Linux Wizard, click ***Take Tour***. Navigate through the wizard using the arrow icons and close the window when finished.
 
-- ***Project 2-1 Step 11 (pg 66)*** - Note that the *Power Off/Log Out* drop-down menu has been replaced with a graphical power icon.
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
 - ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (dnf5) no longer uses the `groupinstall` argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
-- ***Project 2-3 Step 7 (pg 68)*** - KDE Plasma Workspaces no longer supports X.org (X11) on Fedora. When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
+- ***Project 2-3 Step 7 (pg 68)*** - Fedora no longer ships with X.org (X11). When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
 - ***Project 2-3 Step 10 (pg 68)*** - To open a new tab, you now click the New Terminal icon in the upper left corner of the app.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
@@ -61,9 +60,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 - ***Project 8-2 Step 20 (pg 357)*** - Note that while the livesys daemon is now Systemd-compatible, the `service` command functionality is still handled by Systemd. 
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`.
 - ***Project 8-4 Step 3 (pg 358)*** - The disk UUID is now the 4th column in the output of `lsblk --fs`, thus the proper command in this step is `:r !lsblk --fs |grep newmount|awk '{print $4}'`.
-- ***Project 8-5 Steps 2-5 (pg 359)*** - X.org is no longer included in Fedora 41 and later, and the XWayland component is used to provide backwards compatibility for apps that require X.org. As a result, the `startx` command will not run in Fedora 41 and you can instead log into your GNOME desktop from the GDM as described in Step 6.
+- ***Project 8-5 Steps 2-5 (pg 359)*** - X.org is no longer included in Fedora 41 and later, and the XWayland component is used to provide backwards compatibility for apps that require X.org. As a result, the `startx` command will not run in Fedora 42 and you can instead log into your GNOME desktop from the GDM as described in Step 6.
 - ***Discovery Exercise 8-5 (pg 360)*** - Since the i3 window manager requires X.org, and X.org is no longer included in Fedora 41 and later, you can instead run the `dnf -y install sway` command to install the Sway window manager (the Wayland equivalent of i3).
-
 - ***Project 9-4 Step 4 (pg 388)*** - To exit the help page in the `top` command, you must now press either `q` or `Esc` (as indicated on the screen). 
 - ***Project 9-5 Steps 8 and 9 (pg 388)*** - The `crontab` command now opens `nano` instead of `vi` by default. 
 - ***Project 10-4 Step 3 (pg 425)*** - The journald configuration file is now in a different location. Run `cat /usr/lib/systemd/journald.conf` in this step. 
