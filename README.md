@@ -1,8 +1,18 @@
-# Updates for ***Linux+ and LPIC-1 Guide to Linux Certification (6th Edition)***, ISBN: 9798214000800
+# Updates for ***Linux+ and LPIC-1 Guide to Linux Certification***
 
 In this book, you install virtual machines of the latest Fedora Workstation and Ubuntu Server for your architecture (x86_64 or aarch64) on a Windows or macOS system.
 
 New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository. You will also find any miscellaneous changes that related to new versions of Windows or macOS, as well as any typos noticed following publication.
+
+Step modifications are posted below for the following two (2) editions of the book:
+- 6th Edition, ISBN: 9798214000800 and 9798214000947
+- 7th Edition, ISBN: 9798214409962
+
+# 7th Edition, ISBN: 9798214409962
+
+## No changes currently
+
+# 6th Edition, ISBN: 9798214000800 and 9798214000947
 
 ## Changes for Fedora Workstation 42 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards with the following:
