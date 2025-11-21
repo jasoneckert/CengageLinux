@@ -13,6 +13,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 # 7th Edition, ISBN: 9798214409962
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
+
 - ***Project 2-3 Step 12 (pg 71)*** - The latest version of KDE Plasma has a different logout method. Instead of ***Leave***, click the ***Session*** option and choose ***Log Out***.
 - ***Project 8-1 Step 12 (pg 379)*** - The `runlevel` has been removed from Fedora 43 and later. Instead, run the `systemctl list-units --type=target` command and note that the ***rescue.target*** is loaded and active (the other targets listed provide support for this target).
 - ***Project 8-2 Step 2 (pg 379)*** - Run the `systemctl list-units --type=target` command and note that the ***graphical.target*** is loaded and active (the other targets listed provide support for this target).
