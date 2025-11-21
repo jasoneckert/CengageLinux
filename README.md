@@ -5,7 +5,7 @@ In this book, you install virtual machines of the latest Fedora Workstation and 
 New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository. You will also find any miscellaneous changes that related to new versions of Windows or macOS, as well as any typos noticed following publication.
 
 Step modifications are posted below for the following two (2) editions of the book:
-- 7th Edition, ISBN: 9798214409962 (print) - coming late January 2026!
+- 7th Edition, ISBN: 9798214409962 (print) - ***coming late January 2026!***
 - 6th Edition, ISBN: 9798214000800 (print) and 9798214000947 (digital)
 
 # 7th Edition, ISBN: 9798214409962
