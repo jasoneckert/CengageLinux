@@ -14,7 +14,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
 
-- ***Project 2-3 Step 12 (pg 71)*** - The latest version of KDE Plasma has a different logout method. Instead of ***Leave***, click the ***Session*** option and choose ***Log Out***.
+- ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out*** to log out.
 - ***Project 8-1 Step 12 (pg 379)*** - The `runlevel` has been removed from Fedora 43 and later. Instead, run the `systemctl list-units --type=target` command and note that the ***rescue.target*** is loaded and active (the other targets listed provide support for this target).
 - ***Project 8-2 Step 2 (pg 379)*** - Run the `systemctl list-units --type=target` command and note that the ***graphical.target*** is loaded and active (the other targets listed provide support for this target).
 - ***Project 8-2 Step 7 (pg 379)*** - You will be prompted to install the `chkconfig` command first as it is no longer installed by default in Fedora 43 and later. Choose `y` when prompted (twice).
@@ -70,7 +70,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (dnf5) no longer uses the `groupinstall` argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
 - ***Project 2-3 Step 7 (pg 68)*** - Fedora no longer ships with X.org (X11). When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
 - ***Project 2-3 Step 10 (pg 68)*** - To open a new tab, you now click the New Terminal icon in the upper left corner of the app.
-- ***Project 2-3 Step 11 (pg 68)*** - The latest version of KDE Plasma has a different logout method. Instead of ***Leave***, click the ***Session*** option and choose ***Log Out***.
+- ***Project 2-3 Step 11 (pg 68)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out*** to log out.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
 - ***Project 5-2 Step 4 (pg 207)*** - The first command run in this step should be `df -hT`. 
 - ***Project 5-4 Step 4 (pg 209)*** - `mkpart` first prompts you to supply a partition name. Press Enter to choose a blank name.
