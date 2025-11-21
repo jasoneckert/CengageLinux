@@ -15,7 +15,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 # 6th Edition, ISBN: 9798214000800 and 9798214000947
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
-- ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards with the following:
+- ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 and later use an entirely new installer. Replace Step 4 onwards with the following:
   - After the graphical desktop and Welcome to Fedora screen have loaded, select ***Install Fedora*** to start the Fedora installation program.
   - At the Welcome screen, select ***English (United States)*** and click ***Next***.
   - On the Installation method screen, note that your 50 GB virtual disk is called sda and that the entire disk will be used to install Fedora. Select ***Launch storage editor*** from the ellipsis (three-dot) menu in the upper-right section of the window and click ***Launch storage editor*** to edit the storage configuration manually.
