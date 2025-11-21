@@ -9,6 +9,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - 6th Edition, ISBN: 9798214000800 (print) and 9798214000947 (digital)
 
 &nbsp;
+
 # 7th Edition, ISBN: 9798214409962
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
@@ -21,6 +22,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 8-2 Step 11 (pg 379)*** - Run the `systemctl isolate rescue.target` command to switch to runlevel 1. 
 - ***Project 8-2 Step 12 (pg 379)*** - Run the `systemctl list-units --type=target` command and note that the ***rescue.target*** is loaded and active (the other targets listed provide support for this target).
 - ***Project 8-4 Step 6 (pg 381)*** - The `telinit` command is no longer available in Fedora 43. Instead run `systemctl isolate reboot.target` to reboot the system by switching the current target.
+
 &nbsp;
 
 # 6th Edition, ISBN: 9798214000800 and 9798214000947
