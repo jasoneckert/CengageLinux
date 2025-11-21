@@ -11,7 +11,8 @@ Step modifications are posted below for the following two (2) editions of the bo
 &nbsp;
 # 7th Edition, ISBN: 9798214409962
 
-- No changes for Fedora Workstation 43 or Ubuntu Server 24.04 LTS (x86_64 or aarch64) 
+- No changes for Fedora Workstation 43 or Ubuntu Server 24.04 LTS (x86_64 or aarch64)
+- Note that this edition has not been released yet!
 
 &nbsp;
 
