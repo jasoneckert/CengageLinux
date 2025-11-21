@@ -7,8 +7,8 @@ New versions of each Linux distribution are released frequently. While nearly al
 Step modifications are posted below for the following two (2) editions of the book:
 - 7th Edition, ISBN: 9798214409962 (print) - ***coming late January 2026!***
 - 6th Edition, ISBN: 9798214000800 (print) and 9798214000947 (digital)
-&nbsp;
 
+&nbsp;
 # 7th Edition, ISBN: 9798214409962
 
 ## No changes for Fedora Workstation 43 or Ubuntu Server 24.04 LTS
