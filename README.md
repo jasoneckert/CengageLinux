@@ -14,7 +14,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 
 # 6th Edition, ISBN: 9798214000800 and 9798214000947
 
-## Changes for Fedora Workstation 42 (x86_64 or aarch64) 
+## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 now uses an entirely new installer. Replace Step 4 onwards with the following:
   - After the graphical desktop and Welcome to Fedora screen have loaded, select ***Install Fedora*** to start the Fedora installation program.
   - At the Welcome screen, select ***English (United States)*** and click ***Next***.
