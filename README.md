@@ -10,7 +10,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 
 &nbsp;
 
-# 7th Edition, ISBN: 9798214409962
+# 7th Edition, ISBN: 9798214409962/9798214410029
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
 
@@ -26,7 +26,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 
 &nbsp;
 
-# 6th Edition, ISBN: 9798214000800 and 9798214000947
+# 6th Edition, ISBN: 9798214000800/9798214000947
 
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 and later use an entirely new installer. Replace Step 4 onwards with the following:
