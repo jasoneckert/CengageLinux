@@ -81,7 +81,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 2-2 Step 5 (pg 67)*** - Note that the login screen on tty1 is displayed as *seat0* in the output of `who`.
 - ***Project 2-3 Step 2 (pg 68)*** - The *Show Applications* icon is now called *Show Apps*.
 - ***Project 2-3 Step 6 (pg 68)*** - The latest version of `dnf` (dnf5) no longer uses the `groupinstall` argument. You must instead run the `dnf install @kde-desktop-environment` command to install KDE Plasma Workspaces.
-- ***Project 2-3 Step 7 (pg 68)*** - Fedora no longer ships with X.org (X11). When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
+- ***Project 2-3 Step 7 (pg 68)*** - If there are logged in users, you will need to run the `reboot -f` command to reboot the system. Also, Fedora no longer ships with X.org (X11). When you click the Plasma option from the GDM screen, you will start KDE Plasma Workspaces on Wayland, and a component called XWayland will emulate X.org for any apps that require X.org.
 - ***Project 2-3 Step 10 (pg 68)*** - To open a new tab, you now click the New Terminal icon in the upper left corner of the app.
 - ***Project 2-3 Step 11 (pg 68)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out*** to log out.
 - ***Project 2-6 Step 5 (pg 70)*** - When you run `info`, you will be prompted to press `y` (twice) to install the info utility, as it is no longer installed by default. 
