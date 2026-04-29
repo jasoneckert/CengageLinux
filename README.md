@@ -28,19 +28,6 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 44. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
-
-## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
-
-- ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out*** to log out.
-- ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 43 and later. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
-- ***Project 8-2 Step 2 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***graphical.target*** is loaded and active.
-- ***Project 8-2 Step 7 (pg 379)*** - You will be prompted to install the `chkconfig` command in Fedora 43 (press `y` twice).
-- ***Project 8-2 Step 8 (pg 379)*** - `init` is no longer available in Fedora 43. Instead, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
-- ***Project 8-2 Step 10 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
-- ***Project 8-2 Step 11 (pg 379)*** - Run `systemctl isolate rescue.target` to switch to rescue.target.  
-- ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
-- ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 43. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
-- ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
     
 &nbsp;
 
