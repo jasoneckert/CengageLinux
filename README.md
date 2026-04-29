@@ -117,8 +117,6 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 13-4 Step 2 (pg 570)*** - This step is no longer necessary as httpd is now installed by default. 
 - ***Discovery Exercise 13-4 (pg 581)*** - Because sshfs is now installed by default, there is no need to run `dnf install sshfs`. 
 
-# 6th Edition 
-
 ## Changes for Fedora Workstation 43 (x86_64 or aarch64) 
 - ***Project 2-1 Step 4-15 (pg 66-67)*** - Fedora 42 and later use an entirely new installer. Replace Step 4 onwards with the following:
   - After the graphical desktop and Welcome to Fedora screen have loaded, select ***Install Fedora*** to start the Fedora installation program.
