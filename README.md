@@ -31,7 +31,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 
 ## Changes for Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
 
-- ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default.
+- ***Project 10-3 Step 2 (pg 454)*** - This step is no longer necessary as rsyslog is now installed by default.
 
 &nbsp;
 
