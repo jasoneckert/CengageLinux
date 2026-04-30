@@ -125,7 +125,6 @@ Step modifications are posted below for the following two (2) editions of the bo
     - to: default
       via: 3.0.0.1
   ``` 
-- ***Project 12-1 Step 20 (pg 522)*** - Ubuntu now stores network configuration in /etc/netplan/00-installer-config.yaml. Consequently, you must run the `cat /etc/netplan/00-installer-config.yaml` command in this step. 
 - ***Project 13-3 Step 2 (pg 570)*** - Ubuntu now calls the ntp and ntpdate packages ntpsec and ntpsec-ntpdate, respectively. Consequently, you must run the `apt install ntpsec ntpsec-ntpdate -y` command in this step.
 - ***Project 13-3 Step 3 (pg 570)*** - NTP daemon configuration is now stored in /etc/ntpsec/ntp.conf. Consequently, you must run the `less /etc/ntpsec/ntp.conf` command in this step. 
 
