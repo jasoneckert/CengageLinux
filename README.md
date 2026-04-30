@@ -32,7 +32,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 ## Changes for Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
 
 - ***Project 10-3 Step 2 (pg 454)*** - This step is no longer necessary as rsyslog is now installed by default.
-- ***Project 12-1 Step 20 (pg 558)*** - Ubuntu now stores network configuration in /etc/netplan/00-installer-config.yaml. Consequently, you must run the `cat /etc/netplan/00-installer-config.yaml` command in this step. 
+- ***Project 12-1 Step 20 (pg 558)*** - Ubuntu now stores network configuration in 00-installer-config.yaml. Consequently, you must run the `cat /etc/netplan/00-installer-config.yaml` command in this step. 
 - ***Project 13-3 Step 2 (pg 612)*** - Ubuntu now calls the ntp and ntpdate packages ntpsec and ntpsec-ntpdate, respectively. Consequently, you must run the `apt install ntpsec ntpsec-ntpdate -y` command in this step. 
 
 
