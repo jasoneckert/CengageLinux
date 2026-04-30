@@ -88,7 +88,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 7-5 Step 12 (pg 316)*** - Ensure that you use backquotes (\`) instead of single quotes (\') around the values of the `FILE` and `DATE` variables (the compositor changed them before print).
 - ***Project 8-1 Step 5 (pg 356)*** - Also ensure that you edit the `GRUB_DISABLE_SUBMENU=true` line to read `GRUB_DISABLE_SUBMENU=false` before saving your changes to /etc/default/grub. 
 - ***Project 8-1 Step 7 (pg 356)*** - If you do not see the GRUB2 boot screen, just log into the system and reboot it again using `reboot` command. 
-- ***Project 8-1 Step 12 (pg 356)*** - `runlevel` has been removed from Fedora 44 and later. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
+- ***Project 8-1 Step 12 (pg 356)*** - `runlevel` has been removed from Fedora 44. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-2 Step 2 (pg 356)*** - Run `systemctl list-units --type=target` and note that the ***graphical.target*** is loaded and active.
 - ***Project 8-2 Steps 6-8 (pg 357)*** - Note that Fedora no longer ships with any UNIX SysV daemons, such as livesys. You will also be prompted to install the `chkconfig` command (press `y` twice).
 - ***Project 8-2 Step 9 (pg 357)*** - `init` is no longer available in Fedora 44. Instead, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
@@ -99,7 +99,7 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 8-3 Step 4 (pg 358)*** - The first line of the bootscript.service file should read `[Unit]`.
 - ***Project 8-4 Step 3 (pg 358)*** - The disk UUID is now the 4th column in the output of `lsblk --fs`, thus the proper command in this step is `:r !lsblk --fs |grep newmount|awk '{print $4}'`.
 - ***Project 8-4 Step 6 (pg 359)*** - `telinit` is no longer available in Fedora 44. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
-- ***Project 8-5 Steps 2-5 (pg 359)*** - X.org is no longer included in Fedora 41 and later, and the XWayland component is used to provide backwards compatibility for apps that require X.org. As a result, the `startx` command will not run in Fedora 42 and you can instead log into your GNOME desktop from the GDM as described in Step 6.
+- ***Project 8-5 Steps 2-5 (pg 359)*** - X.org is no longer included in Fedora 44, and the XWayland component is used to provide backwards compatibility for apps that require X.org. As a result, the `startx` command will not run in Fedora 44 and you can instead log into your GNOME desktop from the GDM as described in Step 6.
 - ***Discovery Exercise 8-5 (pg 360)*** - Since the i3 window manager requires X.org, and X.org is no longer included in Fedora 41 and later, you can instead run the `dnf -y install sway` command to install the Sway window manager (the Wayland equivalent of i3).
 - ***Project 9-4 Step 4 (pg 388)*** - To exit the help page in the `top` command, you must now press either `q` or `Esc` (as indicated on the screen). 
 - ***Project 9-5 Steps 8 and 9 (pg 388)*** - The `crontab` command now opens `nano` instead of `vi` by default. 
