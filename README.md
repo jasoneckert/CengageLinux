@@ -28,7 +28,11 @@ Step modifications are posted below for the following two (2) editions of the bo
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 44. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
-    
+
+## Changes for Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
+
+- ***Project 10-3 Step 2 (pg 424)*** - This step is no longer necessary as rsyslog is now installed by default.
+
 &nbsp;
 
 # 6th Edition 
