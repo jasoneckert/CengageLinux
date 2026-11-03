@@ -9,7 +9,7 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 ## Changes for Fedora Workstation 45 (x86_64 or aarch64) 
 
 - ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor, you now just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
-- ***Project 2-1 Step 12 (pg 69)*** - You are no longer required to choose your language at the beginning of the Setup wizard (it uses the one you chose during the Fedora installation). Simply click ***Start Setup*** and you will progress to the Privacy page.
+- ***Project 2-1 Step 12 (pg 69)*** - You are no longer required to choose your language and keyboard layout at the beginning of the Setup wizard (it uses the one you chose during the Fedora installation). Simply click ***Start Setup*** and you will progress to the Privacy page.
 - ***Project 2-3 Step 8 (pg 71)*** - If there are logged in users, you will need to run the `reboot -f` command to reboot the system.
 - - NOTE: You may need to use `reboot -f` in place of `reboot` during future steps.
 - ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out***.
