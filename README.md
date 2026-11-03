@@ -11,8 +11,6 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor, you now just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
 - ***Project 2-1 Step 12 (pg 69)*** - You are no longer required to choose your language and keyboard layout at the beginning of the Setup wizard (it uses the one you chose during the Fedora installation). Simply click ***Start Setup*** and you will progress to the Privacy page.
 - ***Project 2-2 Step 5 (pg 70)*** - Starting with Fedora 45, you will no longer see local command-line terminals (e.g., `tty3`, `tty4`) in the output of the `who` command. Instead, Fedora now uses pseudo terminal sessions (`pts/0`, `pts/1`, and so on.) for local command-line terminals, and each `pts` entry will follow a `seat0` entry to denote that the user is seated at a local terminal.
-- ***Project 2-3 Step 8 (pg 71)*** - If there are logged in users, you will need to run the `reboot -f` command to reboot the system.
-- - NOTE: You may need to use `reboot -f` in place of `reboot` during future steps.
 - ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out***.
 - ***Project 8-1 Step 7 (pg 378)*** - In Fedora 44, the GRUB menu uses the autohide option by default. You must press the Esc key immediately after rebooting to see the GRUB menu. Alternatively, you can run `grub2-editenv - unset menu_auto_hide` prior to rebooting to disable the GRUB autohide option.
 - ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 44. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
