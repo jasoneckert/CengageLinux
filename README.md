@@ -14,15 +14,15 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out***.
 - ***Project 2-4 Steps 3, 4, 5, and 9 (pg 71-72)*** - Note that both `screen` and `tmux` leverage only a single pseudo terminal session in Fedora 45.
 - ***Project 5-2 Steps 5 and 7 (pg 221)*** - `du -hT` should be `df -hT` in both of these steps.
-- ***Project 8-1 Step 7 (pg 378)*** - In Fedora 44, the GRUB menu uses the autohide option by default. You must press the Esc key immediately after rebooting to see the GRUB menu. Alternatively, you can run `grub2-editenv - unset menu_auto_hide` prior to rebooting to disable the GRUB autohide option.
-- ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 44. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
+- ***Project 8-1 Step 7 (pg 378)*** - In Fedora 45, the GRUB menu uses the autohide option by default. You must press the Esc key immediately after rebooting to see the GRUB menu. Alternatively, you can run `grub2-editenv - unset menu_auto_hide` prior to rebooting to disable the GRUB autohide option.
+- ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 45. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-2 Step 2 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***graphical.target*** is loaded and active.
 - ***Project 8-2 Step 7 (pg 379)*** - You will be prompted to install the `chkconfig` command in Fedora 44 (press `y` twice).
-- ***Project 8-2 Step 8 (pg 379)*** - `init` is no longer available in Fedora 44. Instead, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
+- ***Project 8-2 Step 8 (pg 379)*** - `init` is no longer available in Fedora 45. Instead, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
 - ***Project 8-2 Step 10 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
 - ***Project 8-2 Step 11 (pg 379)*** - Run `systemctl isolate rescue.target` to switch to rescue.target.  
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
-- ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 44. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
+- ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 45. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
 
 ## Changes for Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
