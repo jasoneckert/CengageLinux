@@ -6,8 +6,6 @@ New versions of each Linux distribution are released frequently. While nearly al
 
 Step modifications are posted below for the ***7th edition*** of the book: ISBN 9798214409962 (print) and 9798214410029 (digital) 
 
-&nbsp;
-
 ## Changes for Fedora Workstation 45 (x86_64 or aarch64) 
 
 - ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor, you now just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
