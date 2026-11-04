@@ -23,7 +23,7 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 8-2 Step 11 (pg 379)*** - Run `systemctl isolate rescue.target` to switch to rescue.target.  
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 45. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
-- ***Project 9-2 Step 1 (pg 412)*** -  Note that your terminal is pts/0 instead of tty5.
+- ***Project 9-2 Step 1 (pg 412)*** -  Note that your terminal is `pts/0` instead of `tty5`.
 - ***Project 9-2 Step 2 (pg 412)*** -  Run `pgrep -t pts/0 bash` to view the PID of the BASH shell in your terminal.
 - ***Project 9-3 Step 14 (pg 413)*** -  Run `pkill -t pts/0 sleep` to kill the sleep processes in your terminal.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
