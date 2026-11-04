@@ -29,7 +29,7 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 10-6 Step 8 (pg 458)*** -  The `usermod` command no longer accepts MM/DD/YYYY date formats. Instead run `usermod -e "2036-01-01" bozo` in this step.
 - ***Project 10-6 Step 9 (pg 458)*** -  Skip this step and proceed to the next one, as `chage` no longer supports setting a minimum days option.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
-- ***Project 13-3 Step 14 (pg 613)*** - If no time sources are listed by the `chronyc sources -v` command, then run `systemctl status chronyd.service` and note the time sources used by the chrony daemon.
+- ***Project 13-3 Step 14 (pg 613)*** - If no time sources are listed by the `chronyc sources -v` command, then run `systemctl status chronyd.service` and note the time sources listed in the events section.
 
 ## Changes for Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
 
