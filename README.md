@@ -8,21 +8,21 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 
 ## Changes for Fedora Workstation 45 (x86_64 or aarch64) 
 
-- ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor, you now just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
+- ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor in the Fedora 45 installer, you don't need to use the ellipsis menu. Instead, just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
 - ***Project 2-1 Step 12 (pg 69)*** - You are no longer required to choose your language and keyboard layout at the beginning of the Setup wizard (it uses the one you chose during the Fedora installation). Simply click ***Start Setup*** and you will progress to the Privacy page.
-- ***Project 2-2 Step 5 (pg 70)*** - Starting with Fedora 45, you will no longer see local command-line terminals (e.g., `tty3`, `tty4`) in the output of the `who` command. Instead, Fedora now uses pseudo terminal sessions (`pts/0`, `pts/1`, and so on.) for local command-line terminals, and each `pts` entry will follow a `seat0` entry to denote that the user is seated at a local terminal.
-- ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option and choose ***Log Out***.
+- ***Project 2-2 Step 5 (pg 70)*** - In Fedora 45, local command-line terminals (e.g., `tty2`, `tty3`, `tty4`) are only used within desktop environments like GNOME and KDE. Command-line terminals in Fedora 45 now start a pseudo terminal session (`pts/0`, `pts/1`, and so on.) instead. To differentiate these local pseudo terminal sessions from pseudo terminal sessions provided to network users (e.g., via SSH) in the output of the `who` command, each `pts` entry will follow a `seat0` entry to denote that the user is seated at a local terminal.
+- ***Project 2-3 Step 12 (pg 71)*** - In the latest KDE, you must click the ***Session*** option from the Fedora Start menu to log out.
 - ***Project 2-4 Steps 3, 4, 5, and 9 (pg 71-72)*** - Note that both `screen` and `tmux` leverage only a single pseudo terminal session in Fedora 45.
-- ***Project 5-2 Steps 5 and 7 (pg 221)*** - `du -hT` should be `df -hT` in both of these steps.
-- ***Project 8-1 Step 7 (pg 378)*** - If the GRUB boot screen doesn't appear automatically during boot, press Esc immediately after boot.
-- ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 45. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
+- ***Project 5-2 Steps 5 and 7 (pg 221)*** - `du -hT` should be `df -hT` in both of these steps (this is a typo!).
+- ***Project 8-1 Step 7 (pg 378)*** - If the GRUB boot screen doesn't appear automatically during boot, simply press Esc immediately after boot.
+- ***Project 8-1 Step 12 (pg 379)*** - Fedora 45 has removed backwards compatibility support for SysV init, including the `runlevel` command. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-2 Step 2 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***graphical.target*** is loaded and active.
-- ***Project 8-2 Steps 5, 6, and 7 (pg 379)*** - You can skip these steps as Fedora 45 has removed backwards compatibility support for SysV init, including /etc/rc.d/ and related SysV init commands.
+- ***Project 8-2 Steps 5, 6, and 7 (pg 379)*** - You can skip these steps as Fedora 45 has removed backwards compatibility support for SysV init.
 - ***Project 8-2 Step 8 (pg 379)*** - Since `init` is no longer available in Fedora 45, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
-- ***Project 8-2 Step 10 (pg 379)*** - Note that `who` displays another pseudo terminal instead of tty1. Since `runlevel` is no longer available in Fedora 45, run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
+- ***Project 8-2 Step 10 (pg 379)*** - Note that `who` displays a pseudo terminal instead of tty1. Since `runlevel` is no longer available in Fedora 45, run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
 - ***Project 8-2 Step 11 (pg 379)*** - Run `systemctl isolate rescue.target` to switch to rescue.target.  
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
-- ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 45. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
+- ***Project 8-4 Step 6 (pg 381)*** -  Since `telinit` is no longer available in Fedora 45, run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
 - ***Project 9-2 Step 1 (pg 412)*** -  Note that your terminal is `pts/0` instead of `tty5`.
 - ***Project 9-2 Step 2 (pg 412)*** -  Run `pgrep -t pts/0 bash` to view the PID of the BASH shell in your terminal.
 - ***Project 9-3 Step 14 (pg 413)*** -  Run `pkill -t pts/0 sleep` to kill the sleep processes in your terminal.
