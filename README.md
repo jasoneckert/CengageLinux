@@ -26,7 +26,7 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 9-2 Step 1 (pg 412)*** -  Note that your terminal is `pts/0` instead of `tty5`.
 - ***Project 9-2 Step 2 (pg 412)*** -  Run `pgrep -t pts/0 bash` to view the PID of the BASH shell in your terminal.
 - ***Project 9-3 Step 14 (pg 413)*** -  Run `pkill -t pts/0 sleep` to kill the sleep processes in your terminal.
-- ***Project 10-6 Step 8 (pg 458)*** -  The `usermod` command no longer accepts date formats using slash delimeters. Instead run `usermod -e "2036-01-01" bozo` in this step.
+- ***Project 10-6 Step 8 (pg 458)*** -  The `usermod` command no longer accepts MM/DD/YYYY date formats. Instead run `usermod -e "2036-01-01" bozo` in this step.
 - ***Project 10-6 Step 9 (pg 458)*** -  Skip this step and proceed to the next one, as `chage` no longer supports setting a minimum days option.
 - ***Project 12-6 Step 4 (pg 562)*** - TigerVNC now limits passwords to 8 characters, so you should enter one that is shorter than `LINUXrocks` (e.g., `LXrocks!`).
 
