@@ -35,7 +35,7 @@ Chapter 9 Hands-On Projects:
 - ***Project 9-3 Step 14 (pg 413)*** -  Run `pkill -t pts/0 sleep` to kill the sleep processes in your terminal.
 
 Chapter 10 Hands-On Projects:
-- ***Project 10-3 Step 2 (pg 454)*** - This step is no longer necessary as rsyslog is now installed by default.
+- ***Project 10-3 Step 2 (pg 454)*** - This step is no longer necessary as rsyslog is now installed by default on Ubuntu Server 26.04.
 - ***Project 10-6 Step 8 (pg 458)*** -  The `usermod` command no longer accepts MM/DD/YYYY date formats. Instead run `usermod -e "2036-01-01" bozo` in this step.
 - ***Project 10-6 Step 9 (pg 458)*** -  Skip this step and proceed to the next one, as `chage` no longer supports setting a minimum days option.
 
