@@ -6,7 +6,7 @@ New versions of each Linux distribution are released frequently. While nearly al
 
 Step modifications are posted below for the ***7th edition*** of the book: ISBN 9798214409962 (print) and 9798214410029 (digital) 
 
-## Changes for Fedora Workstation 45 and Ubuntu Server 26.04 LTS (x86_64 or aarch64) 
+## Changes for Fedora Workstation 45 and Ubuntu Server 26.04 LTS
 
 Chapter 2 Hands-On Projects:
 - ***Project 2-1 Step 6 (pg 69)*** - To launch the storage editor in the Fedora 45 installer, you don't need to use the ellipsis menu. Instead, just click the ***"If none of the options above apply, use the storage editor..."*** link on the main page.
