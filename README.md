@@ -4,7 +4,7 @@ In this book, you install virtual machines running the latest versions of Fedora
 
 New versions of these Linux distributions are released frequently. Although nearly all steps in the Hands-On Projects and Discovery Exercises will remain the same across versions, some may require modification. Updates for each new version of Fedora Workstation and Ubuntu Server, along with any typos identified after publication, are posted in this repository.
 
-Step modifications for the ***7th edition*** are listed below. The book's ISBNs are 9798214409962 (print) and 9798214410029 (digital).
+Modifications for the ***7th edition*** are listed below. The book's ISBNs are 9798214409962 (print) and 9798214410029 (digital).
 
 ## Changes for Fedora Workstation 45 and Ubuntu Server 26.04 LTS
 
