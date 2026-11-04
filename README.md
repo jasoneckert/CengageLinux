@@ -18,8 +18,8 @@ Step modifications are posted below for the ***7th edition*** of the book: ISBN 
 - ***Project 8-1 Step 12 (pg 379)*** - `runlevel` has been removed from Fedora 45. Instead, run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-2 Step 2 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***graphical.target*** is loaded and active.
 - ***Project 8-2 Steps 5, 6, and 7 (pg 379)*** - You can skip these steps as Fedora 45 has removed backwards compatibility support for SysV init, including /etc/rc.d/ and related SysV init commands.
-- ***Project 8-2 Step 8 (pg 379)*** - `init` is no longer available in Fedora 45. Instead, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
-- ***Project 8-2 Step 10 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
+- ***Project 8-2 Step 8 (pg 379)*** - Since `init` is no longer available in Fedora 45, run `systemctl isolate multi-user.target` to switch to runlevel 3. 
+- ***Project 8-2 Step 10 (pg 379)*** - Note that `who` displays another pseudo terminal instead of tty1. Since `runlevel` is no longer available in Fedora 45, run `systemctl list-units --type=target` and note that the ***multi-user.target*** is loaded and active.
 - ***Project 8-2 Step 11 (pg 379)*** - Run `systemctl isolate rescue.target` to switch to rescue.target.  
 - ***Project 8-2 Step 12 (pg 379)*** - Run `systemctl list-units --type=target` and note that the ***rescue.target*** is loaded and active.
 - ***Project 8-4 Step 6 (pg 381)*** -  `telinit` is no longer available in Fedora 45. Instead run `systemctl isolate reboot.target` to reboot the system by switching to reboot.target.
