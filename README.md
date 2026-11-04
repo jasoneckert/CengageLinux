@@ -1,4 +1,4 @@
-#***Linux+ and LPIC-1 Guide to Linux Certification***, 7th Edition
+# ***Linux+ and LPIC-1 Guide to Linux Certification***, 7th Edition
 
 In this book, you install virtual machines running the latest versions of Fedora Workstation and Ubuntu Server for your architecture (x86_64 or aarch64) on a Windows or macOS system.
 
