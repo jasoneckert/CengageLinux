@@ -1,10 +1,10 @@
 # Updates for ***Linux+ and LPIC-1 Guide to Linux Certification***, 7th Edition
 
-In this book, you install virtual machines of the latest Fedora Workstation and Ubuntu Server for your architecture (x86_64 or aarch64) on a Windows or macOS system.
+In this book, you install virtual machines running the latest versions of Fedora Workstation and Ubuntu Server for your architecture (x86_64 or aarch64) on a Windows or macOS system.
 
-New versions of each Linux distribution are released frequently. While nearly all steps within the hands-on projects and discovery exercises in this book will remain the same for newer versions of Linux, there may be some steps that need to be modified. You can find these steps for each new version of Fedora Workstation and Ubuntu Server in this repository, as well as any typos noticed after publication.
+New versions of these Linux distributions are released frequently. Although nearly all steps in the Hands-On Projects and Discovery Exercises will remain the same across versions, some may require modification. Updates for each new version of Fedora Workstation and Ubuntu Server, along with any typos identified after publication, are posted in this repository.
 
-Step modifications are posted below for the ***7th edition*** of the book: ISBN 9798214409962 (print) and 9798214410029 (digital) 
+Step modifications for the ***7th edition*** are listed below. The book's ISBNs are 9798214409962 (print) and 9798214410029 (digital).
 
 ## Changes for Fedora Workstation 45 and Ubuntu Server 26.04 LTS
 
