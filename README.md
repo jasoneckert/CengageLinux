@@ -1,6 +1,6 @@
 # Cengage: ***Linux+ and LPIC-1 Guide to Linux Certification***, 7th Edition
 
-In this book, you install virtual machines running the latest versions of Fedora Workstation and Ubuntu Server for your architecture (x86_64 or aarch64) on a Windows or macOS system.
+In this book, you install virtual machines running the latest versions of Fedora Workstation and Ubuntu Server LTS for your architecture (x86_64 or aarch64) on a Windows or macOS system.
 
 New versions of these Linux distributions are released frequently. Although nearly all steps in the Hands-On Projects and Discovery Exercises will remain the same across versions, some may require modification. Updates for each new version of Fedora Workstation and Ubuntu Server, along with any typos identified after publication, are posted in this repository.
 
